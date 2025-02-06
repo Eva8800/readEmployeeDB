@@ -12,7 +12,7 @@ poetry install # To install requirements
 ```
 Next, run the application using:
 ```sh
-poetry run fastapi reademployeedb/main.py
+poetry run fastapi run reademployeedb/main.py
 ```
 
 # API description
