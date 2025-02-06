@@ -1,0 +1,19 @@
+[project]
+name = "reademployeedb"
+version = "0.1.0"
+description = "A project to demonstrate documentation"
+authors = [
+    {name = "Chike Ezebube", email = "198004546+Eva8800@users.noreply.github.com"},
+    {name = "Bryan Wodi",email = "12839540+talk2bryan@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi[standard] (>=0.115.8,<0.116.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
